@@ -1,0 +1,230 @@
+
+
+body {
+    background-image: url(background3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+div.fejlec {
+    width: 40%;
+    opacity: 0.8;
+}
+
+
+div.fejlec img {
+    max-width: 100%;
+}
+
+div.fejlec:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+div.fejlec {
+    opacity: 0.8;
+    transition: 1s;
+}
+
+div.fatalfalls { 
+    width: 100%;
+    padding: 25px;
+    float: left;
+    opacity: 0.8;
+}
+
+div.fatalfalls img {
+    max-width: 100%;
+}
+
+div.fatalfalls:hover {
+    transform: translate(150px);
+    transition: 1s;
+    opacity: 1;
+    cursor: pointer;
+}
+
+div.fatalfalls {
+    transition: 0.7s;
+    transform: translate(0px);
+}
+
+p.fatalfallsp {
+    width: 100%;
+    padding: 25px;
+    border: 5px double darkolivegreen;
+    border-radius: 10px;
+    background-color: darkgray;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: width 1.5s;
+    float: right;
+
+}
+
+p.fatalfallsp:hover {
+    transition: width 1s;
+    width: 70%;
+    height: auto;
+}
+
+div.badseed {
+    width: 100%;
+    padding: 25px;
+    float: left;
+    opacity: 0.8;
+}
+
+div.badseed img {
+    max-width: 100%;
+}
+
+div.badseed:hover {
+    transform: translate(150px);
+    transition: 1s;
+    opacity: 1;
+    cursor: pointer;
+}
+
+div.badseed {
+    transition: 0.7s;
+    transform: translate(0px);
+}
+
+p.badseedp {
+    width: 100%;
+    padding: 25px;
+    border: 5px double darkolivegreen;
+    border-radius: 10px;
+    background-color: darkgray;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: width 1.5s;
+    float: right;
+}
+
+p.badseedp:hover {
+    transition: width 1s;
+    width: 70%;
+    height: auto;
+}
+
+div.Rise {
+    width: 100%;
+    padding: 25px;
+    float: left;
+    opacity: 0.7;
+}
+
+div.Rise img{
+    max-width: 100%;
+}
+
+div.Rise:hover {
+    transform: translate(150px);
+    transition: 1s;
+    opacity: 1;
+    cursor: pointer;
+}
+
+div.Rise {
+    transition: 0.7s;
+    transform: translate(0px);
+}
+
+p.Risep {
+    width: 100%;
+    padding: 25px;
+    border: 5px double darkolivegreen;
+    border-radius: 10px;
+    background-color: darkgray;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: width 1.5s;
+    float: right;
+}
+
+p.Risep:hover {
+    transition: width 1s;
+    width: 70%;
+    height: auto;
+}
+
+.topnav a {
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: lightgrey;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.7s;
+    padding: 2px 20px;
+    margin: 1px 10px;
+    color: black;
+    display: block;
+    float: left;
+}
+
+.topnav a:hover {
+    opacity: 1;
+    background-color: brown;
+    transition: 0.5s;
+    margin-right: 50px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+#kiemelt {
+    font-style: italic;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    div.fejlec {
+    width: 60%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    margin-top: auto;
+    }
+
+    .topnav a {
+        width: 10%; 
+        height: 10%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+    div.col-4 {
+        width: 33.33%;
+        float: right;
+        }
+  .col-5 {
+      width: 41.66%;
+      float: left;
+    }
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+

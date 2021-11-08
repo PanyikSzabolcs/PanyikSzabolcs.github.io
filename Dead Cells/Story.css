@@ -1,0 +1,6 @@
+body {
+    background-image: url('paperscroll.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}

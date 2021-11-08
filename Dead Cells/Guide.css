@@ -1,0 +1,73 @@
+body {
+    
+}
+
+div.background {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    scroll-behavior: smooth;
+}
+
+div.background::before {
+    background-image: url('wallpaper2.jpg');
+    content: "";
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+}
+
+h1{
+    position: absolute;
+    left: 600px;
+    top: 25px;
+    color: black;
+    font-size: 3rem;
+    line-height: 0.9;
+    text-align: center;
+    text-shadow: black 2px 2px 7px;
+    font-variant: small-caps;
+}
+
+h2 {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+div.video {
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+
+div.text1 {
+    position: absolute;
+    top: 600px;
+    float: right;
+    width: 1200px;
+    height: 210px;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: large;
+    border: 3px double darkred;
+    background-color: rosybrown;
+    opacity: 0.7;
+    transition: 1s;
+}
+
+div.text1:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+
+
