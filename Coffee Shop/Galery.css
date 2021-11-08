@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(84, 77, 29, 0.9);
+}
+
+div {
+    width: 100%;
+    padding: 25px;
+    float: left;
+    opacity: 0.8;
+    transition: 1s;
+
+}
+div img {
+    max-width: 100%;
+}
+
+div:hover {
+    transform: translate(250px);
+    transition: 1s;
+    opacity: 1;
+    cursor: pointer;
+}
