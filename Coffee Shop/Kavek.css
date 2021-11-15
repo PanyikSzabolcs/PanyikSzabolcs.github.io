@@ -1,0 +1,37 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.hatter {
+    background-image: url(coffeewallpaper.jpg);
+    background-size: cover;   
+}
+
+.hatter::before {
+    content: '';
+    opacity: 0.75;
+}
+
+.fajtak {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    opacity: 0.9;
+    transition: 1s;
+}
+
+.fajtak:hover {
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 800px) {
+
+}
