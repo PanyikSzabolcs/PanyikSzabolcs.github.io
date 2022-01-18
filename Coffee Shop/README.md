@@ -13,4 +13,4 @@
 #### 6. Html hibák ellenőrzése, kód javítása.
 ###
 ### A weboldalam előnézete:
-![This is an image](PanyikSzabolcs.github.io/Coffee Shop/Elonezet.png)
+![This is an image](https://github.com/PanyikSzabolcs/PanyikSzabolcs.github.io/blob/main/Coffee%20Shop/Elonezet.png)
