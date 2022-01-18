@@ -12,3 +12,4 @@
 #### css módosítások
 #### lista elkészítése
 #### navigációs sáv megírása html-ben
+![](https://github.com/PanyikSzabolcs/PanyikSzabolcs.github.io/blob/main/Lucky%20K%C3%A1v%C3%A9z%C3%B3/lucky.png)
