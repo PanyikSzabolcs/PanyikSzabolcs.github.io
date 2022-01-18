@@ -26,4 +26,4 @@ Csapatnév FANTANO
 - Csapat vezetése
 
 #### A weblapról készült képernyőkép:
-![image](
+![image](https://github.com/PanyikSzabolcs/PanyikSzabolcs.github.io/blob/main/foldonkivuli/Foldonkivuli.png)
