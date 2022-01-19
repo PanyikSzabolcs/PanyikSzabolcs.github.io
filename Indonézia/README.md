@@ -9,4 +9,4 @@
 #### 4. Projekt ellenőrzése.
 ###
 ### A projekt lefutásának előnézete:
-[Image](https://github.com/PanyikSzabolcs/PanyikSzabolcs.github.io/blob/main/Indon%C3%A9zia/Indonesia.png)
+[](https://github.com/PanyikSzabolcs/PanyikSzabolcs.github.io/blob/main/Indon%C3%A9zia/Indonesia.png)
