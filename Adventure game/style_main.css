@@ -1,0 +1,55 @@
+body {
+    background-image: url("images/bg.jpg");
+}
+
+p {
+    font-size: 25px;
+    background-image: url("images/paper_scroll.jpg");
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    float: right;
+    margin-right: 50px;
+}
+
+.container {
+    background-repeat: no-repeat;
+    max-width: 600px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 600px;
+    background-image: url("regisztráció/images/bg.png");
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 1px;
+    text-align: center;
+}
+
+.container img {
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#start {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: darkgrey;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: 0.8s;
+}
+
+#start:hover {
+    transition: 0.5s;
+    color: white;
+}
