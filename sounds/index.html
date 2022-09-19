@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangok</title>
+</head>
+<body>
+    <div id='linkek'>
+
+        <img src='sony.jpeg' class='abra'>
+    
+        <span href='javascript:' onClick=' lejatszas("szúnyog") '> Szúnyog </span><br>
+        <span href='javascript:' onClick=' lejatszas("bárány")  '> Bárány  </span><br>
+        <span href='javascript:' onClick=' lejatszas("malac")   '> Malac   </span><br><br>
+    
+        <div id=hang><audio controls></audio></div>
+    
+        <input type=button    onClick=' lejatszas("csend")   '  value='Némítás'>
+    
+    </div>
+    
+    
+    
+    <script>
+    
+        function lejatszas(x)
+        {
+    
+        if( x=="szúnyog" )   hang.innerHTML = "<audio controls autoplay><source src='./hangok/mosquito.mp3' type='audio/mpeg'></audio>"  
+        if( x=="bárány"  )   hang.innerHTML = "<audio controls autoplay><source src='./hangok/sheep.mp3'    type='audio/mpeg'></audio>"  
+        if( x=="malac"   )   hang.innerHTML = "<audio controls autoplay><source src='./hangok/pig.mp3'      type='audio/mpeg'></audio>"  
+    
+        if( x=="csend"   )   hang.innerHTML = "<audio controls></audio>"
+    
+        }
+    
+    </script>
+</body>
+</html>
